@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: nimbus-mono;
+  src: url('../Pages/Fonts/nimbus-mono.regular.otf');
+  src: url('../Pages/Fonts/nimbus-mono.regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('../Pages/Fonts/OpenSans-Regular.ttf');
+  src:url('../Pages/Fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -34,6 +50,8 @@ body {
 }
 
 .navbar-container{
+  font-size: 16px;
+  font-family: nimbus-mono;
   margin-top: 1.5%;
   display: flex;
   align-items: center;
@@ -81,6 +99,8 @@ body {
 /* Home Page CSS */
 
 .homepage{
+  font-family: OpenSans;
+  font-weight: 600;
   display: flex;
 }
 

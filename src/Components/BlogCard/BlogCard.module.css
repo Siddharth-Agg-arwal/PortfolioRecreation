@@ -1,0 +1,66 @@
+@font-face {
+    font-family: nimbus-mono;
+    src: url('../../Pages/Fonts/nimbus-mono.regular.otf');
+    src: url('../../Pages/Fonts/nimbus-mono.regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../../Pages/Fonts/OpenSans-Regular.ttf');
+    src:url('../../Pages/Fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.card{
+    border-radius: 25px;
+    padding: 20px;
+    width: 500px;
+    height: 250px;
+    border: 1px dashed #F33422;
+    /* margin: 2% 2%; */
+}
+
+.card:hover{
+    border: 1px solid #F33422;
+    transition-duration: 5s;
+    /* transition-delay: 2s; */
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleText{
+    font-size: 17px;
+    flex:1;
+    font-family: nimbus-mono;
+    color: #F33422;
+}
+
+.dateText{
+    font-size:17px;
+    margin-bottom: 20px;
+    flex:1;
+    font-family: nimbus-mono;
+    color: #383838;
+}
+
+.descriptionText{
+    margin-bottom: 20px;
+    flex:5;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: OpenSans;
+}  
+
+.linkText{
+    font-size:17px;
+    flex:1;
+    font-family: nimbus-mono;
+}
