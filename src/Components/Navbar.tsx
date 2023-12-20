@@ -10,12 +10,12 @@ export function NavBar() {
     <div>
     <nav className="navbar-container">
       <div className="leftNav">
-        <NavLink to="/">HI! I'M PRABHAV KHANDELWAL.</NavLink>
+        <NavLink className="selectionEffect" to="/">HI! I'M PRABHAV KHANDELWAL.</NavLink>
       </div>
       <div className="rightNav">
-        <NavLink to="/work">DESIGN & CODE,</NavLink>
-        <NavLink to="/blog">WORDS & DOODLES,</NavLink>
-        <NavLink to="/about">BIO & FACE</NavLink>
+        <NavLink className="selectionEffect" to="/work">DESIGN & CODE,</NavLink>
+        <NavLink className="selectionEffect" to="/blog">WORDS & DOODLES,</NavLink>
+        <NavLink className="selectionEffect" to="/about">BIO & FACE</NavLink>
       </div>
     </nav>
     <div className="navHorizontalRule"><hr /></div>

@@ -21,6 +21,18 @@ body {
   background: white;
 }
 
+.selectionEffect::-moz-selection{
+  text-shadow: 1px 1px 1px red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.selectionEffect::selection{
+  text-shadow: 1px 1px 1px red;
+  background-color: transparent; 
+  text-decoration: underline;
+}
+
 .navbar-container{
   margin-top: 1.5%;
   display: flex;
@@ -63,4 +75,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+/* Home Page CSS */
+
+.homepage{
+  display: flex;
+}
+
+.leftText{
+  margin:2vw 2vw;
+  flex:2;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightProjects{
+  flex:3;
+}
+
+.text{
+  font-size: 30px;
 }
