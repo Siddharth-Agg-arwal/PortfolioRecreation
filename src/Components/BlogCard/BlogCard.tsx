@@ -7,16 +7,25 @@ interface Props{
     date: string;
     description: string;
     link:string;
+    exportIcon:string;
 }
 
-const BlogCard = ({title, date, description, link} : Props) => {
+const BlogCard = ({title, date, description, link, exportIcon} : Props) => {
   return (
     <div className={styles.card}>
         <div className={styles.content}>
-            <div><h1 className={styles.titleText}>{title}</h1></div>
-            <div><h2 className={styles.dateText}>{date}</h2></div>
-            <div><p className={styles.descriptionText}>{description}</p></div>
-            <div><h2 className={styles.linkText}>{link}</h2></div>
+            <div><h1 className={`${styles.titleText} ${styles.selectionEffect}`}>{title}</h1></div>
+            <div><h2 className={`${styles.dateText} ${styles.selectionEffect}`}>{date}</h2></div>
+            <div><p className={`${styles.descriptionText} ${styles.selectionEffect}`}>{description}</p></div>
+            <div className={`${styles.redirect} ${styles.selectionEffect}`}>
+            <h2 className={`${styles.linkText} ${styles.selectionEffect}`}>{link}</h2>
+              <Image 
+                src={exportIcon}
+                alt='exportIcon'
+                width={14}
+                height={14}
+              />
+            </div>
         </div>
     </div>
   )

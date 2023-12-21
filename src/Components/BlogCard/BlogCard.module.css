@@ -16,10 +16,10 @@
 
 
 .card{
-    border-radius: 25px;
+    /* border-radius: 25px; */
     padding: 20px;
-    width: 500px;
-    height: 250px;
+    width: 30vw;
+    height: 20vw;
     border: 1px dashed #F33422;
     /* margin: 2% 2%; */
 }
@@ -33,7 +33,29 @@
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.content::selection{
+    color:#F33422;
+    background-color:#F33422;
+}
+
+.content::-moz-selection{
+    color:#F33422;
+    background-color:#F33422;
+}
+
+.selectionEffect::-moz-selection{
+    text-shadow: 1px 1px 1px red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+.selectionEffect::selection{
+    text-shadow: 1px 1px 1px red;
+    background-color: transparent; 
+    text-decoration: underline;
 }
 
 .titleText{
@@ -52,7 +74,7 @@
 }
 
 .descriptionText{
-    margin-bottom: 20px;
+    /* margin-bottom: 30px; */
     flex:5;
     font-size: 22px;
     font-weight: 600;
@@ -60,7 +82,28 @@
 }  
 
 .linkText{
+    /* margin-top: 20px; */
+    margin-right:20px;
     font-size:17px;
-    flex:1;
     font-family: nimbus-mono;
+}
+
+.redirect{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+@media screen and (max-width:1600px) {
+    .card{
+        width:40vw;
+        height:25vw;
+    }
+/* 
+    .blogGrid{
+        grid-template-columns:auto auto;
+    } */
 }

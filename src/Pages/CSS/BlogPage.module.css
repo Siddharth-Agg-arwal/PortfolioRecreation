@@ -11,7 +11,7 @@
     grid-template-columns: auto auto auto;
     row-gap: 2vw;
     margin: 2vw 2vw;
-    column-gap: 2vw;
+    column-gap: 1vw;
 }
 
 .doodleGrid{
