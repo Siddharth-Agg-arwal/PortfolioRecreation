@@ -2,5 +2,18 @@
 const nextConfig = {}
 
 module.exports = {
-    trailingSlash: true
+    trailingslash: true,
 }
+
+module.exports = {
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'prabhavkhandelwal.com',
+          port: '',
+          pathname: '/assets/img/work/boldvoice.png**',
+        },
+      ],
+    },
+  }

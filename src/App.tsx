@@ -6,6 +6,7 @@ import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import BlogPage from "./Pages/BlogPage";
 import WorkPage from "./Pages/WorkPage";
+import BoldVoice from "./Pages/ProjectPages/BoldVoice";
 
 export function App() {
   return (
@@ -17,6 +18,7 @@ export function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/work" element={<WorkPage />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="boldvoice" element={<BoldVoice />}/>
         </Routes>
       </BrowserRouter>
     </>

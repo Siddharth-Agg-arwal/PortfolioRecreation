@@ -23,6 +23,7 @@ const AboutPage = () => {
           Thanks for coming to my little corner on the web. Don't be shy, say hi →
           </p>
           <br></br>
+          <br />
           <ul className={styles.socialHandles}>
             <li><a href="https://twitter.com/helloprabhav">TWITTER</a></li>
             <li><a href="https://www.instagram.com/helloprabhav/">INSTAGRAM</a></li>

@@ -8,7 +8,7 @@ const BlogPage = () => {
   return (
     <div className={styles.blogPage}>
             <div className={styles.blogGrid}>
-
+               
                 <a href="https://mindsparklemag.com/design/interview/interview-with-sdco-partners/">
                     <BlogCard
                         title='INTERVIEW WITH SDCO PARTNERS'

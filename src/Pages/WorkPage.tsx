@@ -1,12 +1,14 @@
 import React from 'react'
 import WorkCard from '@/Components/WorkCard/WorkCard'
 import styles from './CSS/WorkPage.module.css';
+import { NavLink } from "react-router-dom";
 
 const WorkPage = () => {
   return (
     <div className={styles.workpage}>
       {/* card 1 */}
-      <WorkCard
+    <NavLink to='/work/boldvoice'>
+     <WorkCard 
         jobTitle='(Product Design)'
         projectTitle='BOLDVOICE'
         description='Accent coaching for nonnative English speakers.'
@@ -14,6 +16,7 @@ const WorkPage = () => {
         caseStudyLink='CASE STUDY'
         projectImage='/boldvoice.png'
       />
+    </NavLink>
       <div className="navHorizontalRule"><hr /></div>
 
       {/* card 2 */}
