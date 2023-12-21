@@ -15,16 +15,17 @@ const WorkCard = ({jobTitle, projectTitle, description, caseStudyIcon, caseStudy
   return (
     <div className={styles.workcard}>
         <div className={styles.cardStructure}>
-            <h1>{jobTitle}</h1>
+            <h1 className={styles.jobTitle}>{jobTitle}</h1>
             <div className={styles.content}>
-                <h2>{projectTitle}</h2>
+                <h2 className={styles.projectTitle}>{projectTitle}</h2>
                 <h1>{description}</h1>
                 <div className={styles.caseStudy}>
                 <Image
                     src={caseStudyIcon}
                     alt='caseStudyIcon'
-                    width={10}
-                    height={10}
+                    width={12}
+                    height={7}
+                    className={caseStudyIcon}
                 />
                 <h2>{caseStudyLink}</h2>
                 </div>
@@ -34,6 +35,7 @@ const WorkCard = ({jobTitle, projectTitle, description, caseStudyIcon, caseStudy
                 alt={projectTitle}
                 width={300}
                 height={250}
+                className={styles.projectImage}
             />
         </div>
     </div>

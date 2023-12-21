@@ -1,0 +1,27 @@
+.workpage{
+    margin:2%;
+}
+
+.workpage hr{
+    margin-top: 2%;
+    margin-bottom:2%;
+    color:#BFBFBF;
+    width:95vw;
+}
+
+.footerContent{
+    display: flex;
+    align-items: center;
+    font-family: nimbus-mono;
+    font-size:17px;
+    justify-content: space-between;
+}
+
+/* .leftFooter{
+    /* flex:1;
+}
+
+.rightFooter{
+    /* flex:1;
+    justify-content: right;
+} */

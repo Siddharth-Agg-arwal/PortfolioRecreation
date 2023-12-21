@@ -1,0 +1,82 @@
+@font-face {
+    font-family: nimbus-mono;
+    src: url('../../Pages/Fonts/nimbus-mono.regular.otf');
+    src: url('../../Pages/Fonts/nimbus-mono.regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../../Pages/Fonts/OpenSans-Regular.ttf');
+    src:url('../../Pages/Fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cardStructure{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    padding-left:5vw;
+    padding-right:15vw;
+    flex:3;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectTitle{
+    margin-bottom:30px;
+    color:#F22613;
+    font-size: 17px;
+    font-family: nimbus-mono;
+}
+
+.content h1{
+    margin-bottom:40px;
+    /* padding-left:30px; */
+    font-size: 28px;
+    font-family: OpenSans;
+    font-weight: 500;
+}
+
+.caseStudy{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caseStudy h2{
+    margin-left:10px;
+    cursor:pointer;
+    font-size: 17px;
+    color: #F22613;
+    font-family: nimbus-mono;
+    text-decoration:underline;
+}
+
+.caseStudyIcon{
+    /* margin-top:-20px; */
+    width:10px;
+    height:5px;
+}
+
+.projectImage{
+    flex: 4;
+    transition: all .2s ease-in-out;
+}
+
+.projectImage:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+}
+
+.jobTitle{
+    color: #666666;
+    font-size: 17px;
+    font-family:nimbus-mono;
+    flex:1.5;
+}
