@@ -32,3 +32,16 @@
         grid-template-columns:auto auto;
     }
 }
+
+.blogpage_footer{
+    margin:2%;
+}
+
+.footerContent{
+    margin-top:2%;
+    display: flex;
+    align-items: center;
+    font-family: nimbus-mono;
+    font-size:17px;
+    justify-content: space-between;
+}
