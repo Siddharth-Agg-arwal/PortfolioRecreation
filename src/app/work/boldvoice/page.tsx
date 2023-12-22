@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './BoldVoice.module.css';
+import Link from 'next/link';
 // import ProjectDescription from '../ProjectDescription';
 
 const image1 = 'https://prabhavkhandelwal.com/assets/img/work/boldvoice.png';
@@ -9,6 +10,7 @@ const BoldVoice = () => {
     <div className={styles.projectpage}>
       <div className={styles.projectpagecontent}>
         <div className={styles.leftContent}>
+          <div className={styles.leftContentContainer}>
           <div className={styles.projectTitle}>
             Accent coaching for nonnative English speakers.
           </div>
@@ -44,6 +46,7 @@ const BoldVoice = () => {
           <br />
           <div className={styles.role}>
             <p>ROLE..................................PRODUCT DESIGN</p>
+            </div>
           </div>
         </div>
         <div className={styles.rightContent}>
@@ -100,7 +103,7 @@ const BoldVoice = () => {
             <div className={styles.boldvoice_hometext}>
               <h1>Home</h1>
               <h2>A DAILY PRACTICE, NOT A SPRINT</h2>
-              <p>Instead of approaching the lessons in a sprint-type fashion, our research showed that a routine-based structured approach works better for picking up new skills. So, the homepage shows the users their “tasks of the day” with the goal to check each of them off every day.</p>
+              <p className={styles.para}>Instead of approaching the lessons in a sprint-type fashion, our research showed that a routine-based structured approach works better for picking up new skills. So, the homepage shows the users their “tasks of the day” with the goal to check each of them off every day.</p>
               <br />
             </div>
             <div className={styles.boldvoice_homeimage}>
@@ -119,7 +122,7 @@ const BoldVoice = () => {
             <div className={styles.boldvoice_videolessonstext}>
               <h1>Video Lessons</h1>
               <h2>LEARNING FROM THE BEST</h2>
-              <p>Users can watch lessons with accent coaches and practice key words and sentences as they're learning. They can also check detailed syllable-by-syllable feedback and can rate the lesson after they're done.</p>
+              <p className={styles.para}>Users can watch lessons with accent coaches and practice key words and sentences as they're learning. They can also check detailed syllable-by-syllable feedback and can rate the lesson after they're done.</p>
               <br />
             </div>
             <div className={styles.boldvoice_videolessonsimage}>
@@ -138,7 +141,7 @@ const BoldVoice = () => {
             <div className={styles.boldvoice_practiselessonstext}>
               <h1>Practice Sessions</h1>
               <h2>HONING YOUR SKILLS</h2>
-              <p>Every video lesson is coupled with a practice set, which helps users hone in on the concepts they've just learned. They can hear an example from the coach, try their hand and get detailed feedback on how they did.</p>
+              <p className={styles.para}>Every video lesson is coupled with a practice set, which helps users hone in on the concepts they've just learned. They can hear an example from the coach, try their hand and get detailed feedback on how they did.</p>
               <br />
             </div>
             <div className={styles.boldvoice_practiselessonsimage}>
@@ -157,7 +160,7 @@ const BoldVoice = () => {
             <div className={styles.boldvoice_lessonplanstext}>
               <h1>Lesson Plans</h1>
               <h2>A BIRD'S EYE VIEW</h2>
-              <p>All lessons are structured into thematic units, which are further divided into video lessons coupled with their dedicated practice set. We experimented with a couple approaches on how to showcase overall progress through the coursework—overall progress bars and a streak-based approach.</p>
+              <p className={styles.para}>All lessons are structured into thematic units, which are further divided into video lessons coupled with their dedicated practice set. We experimented with a couple approaches on how to showcase overall progress through the coursework—overall progress bars and a streak-based approach.</p>
               <br />
             </div>
             <div className={styles.boldvoice_lessonplansimage}>
@@ -175,7 +178,7 @@ const BoldVoice = () => {
           <div className={styles.boldvoice_finalthoughts}>
             <div className={styles.boldvoice_finalthoughtstext}>
               <h1>Final Thoughts</h1>
-              <p>BoldVoice has evolved and grown since my initial designs and continues to rack up downloads on both the Apple App Store and Google Play Store — helping nonnative English speakers discover their most clear and confident voice.</p>
+              <p className={styles.para}>BoldVoice has evolved and grown since my initial designs and continues to rack up downloads on both the Apple App Store and Google Play Store — helping nonnative English speakers discover their most clear and confident voice.</p>
               <br />
             </div>
           </div>
@@ -186,7 +189,7 @@ const BoldVoice = () => {
         <div className="navHorizontalRule"><hr /></div>
           <div className={styles.footerContent}>
             <p className={styles.leftFooter}></p>
-            <p className={styles.rightFooter}>THANKS FOR STOPPING BY!</p>
+            <Link href="/work/skilli"><p className={styles.rightFooter}>SKILLI   →</p></Link>
          </div>
       </div>
     </div>
