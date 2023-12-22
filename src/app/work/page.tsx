@@ -128,7 +128,7 @@ const WorkPage = () => {
         caseStudyLink='CASE STUDY'
         projectImage=''
         projectRoute='/work/covera'
-        projectVideo='/coverahealth.webm'
+        projectVideo='https://prabhavkhandelwal.com/assets/img/work/covera-health.webm'
         videoType='/video/webm'
       />
       <div className="navHorizontalRule"><hr /></div>
@@ -156,7 +156,7 @@ const WorkPage = () => {
         caseStudyLink='CASE STUDY'
         projectImage=''
         projectRoute='/work/varunchopra'
-        projectVideo='varunchopra.webm'
+        projectVideo='https://prabhavkhandelwal.com/assets/img/work/varun-chopra.webm'
         videoType='/video/webm'
       />
       <div className={styles.workpage_footer}>

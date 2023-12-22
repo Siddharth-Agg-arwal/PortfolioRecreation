@@ -1,9 +1,9 @@
 'use client'
-import BlogCard from '@/app/blog/BlogCard'
+import BlogCard from '@/Components/BlogCard/BlogCard'
 import React from 'react'
 import styles from './BlogPage.module.css';
 // import Image from 'next/image';
-import DoodleCard from '@/app/blog/DoodleCard';
+import DoodleCard from '@/Components/DoodleCard/DoodleCard';
 
 const BlogPage = () => {
   return (
@@ -51,36 +51,58 @@ const BlogPage = () => {
             </div>
         <div className={styles.doodleSection}>
             <div className={styles.doodleGrid}>
+
+                {/* DOODLE CARD 1 */}
                 <DoodleCard
-                    src='/doodleImage.png'
+                    src='https://cdn.dribbble.com/users/198568/screenshots/9395374/media/80619d330577c587d93d549031ae9108.png'
                     title='doodle'
                 />
+
+                {/* DOODLE CARD 2 */}
                 <DoodleCard
-                    src='/doodleImage.png'
+                    src='https://cdn.dribbble.com/users/198568/screenshots/6602519/dribbble_shot_hd_2.40.png'
                     title='doodle'
                 />
+
+                {/* DOODLE CARD 3 */}
                 <DoodleCard
-                    src='/doodleImage.png'
+                    src='https://cdn.dribbble.com/users/198568/screenshots/6485791/desktop_hd_copy_13.png'
                     title='doodle'
                 />
+
+                {/* DOODLE CARD 4 */}
                 <DoodleCard
-                    src='/doodleImage.png'
+                    src='https://cdn.dribbble.com/users/198568/screenshots/3120859/criss.jpg'
                     title='doodle'
                 />
+
+                {/* DOODLE CARD 5 */}
                 <DoodleCard
-                    src='/doodleImage.png'
+                    src='https://cdn.dribbble.com/users/198568/screenshots/2712647/mix_bouncer.png'
                     title='doodle'
                 />
+
+                {/* DOODLE CARD 6 */}
                 <DoodleCard
-                    src='/doodleImage.png'
+                    src='https://cdn.dribbble.com/users/198568/screenshots/2653946/squiggle_bouncer.png'
                     title='doodle'
                 />
+
+                {/* DOODLE CARD 7 */}
                 <DoodleCard
-                    src='/doodleImage.png'
+                    src='https://cdn.dribbble.com/users/198568/screenshots/2638990/bouncer.jpg'
                     title='doodle'
                 />
+
+                {/* DOODLE CARD 8 */}
                 <DoodleCard
-                    src='/doodleImage.png'
+                    src='https://cdn.dribbble.com/users/198568/screenshots/9395372/media/94804725a1ea00a23a8a73064b5bff70.png'
+                    title='doodle'
+                />
+
+                {/* DOODLE CARD 9 */}
+                <DoodleCard
+                    src='https://cdn.dribbble.com/users/198568/screenshots/1658478/modules-banner.png'
                     title='doodle'
                 />
             </div>

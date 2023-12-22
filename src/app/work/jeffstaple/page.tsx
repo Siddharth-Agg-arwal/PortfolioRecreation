@@ -3,9 +3,7 @@ import styles from './JeffStaple.module.css';
 import Link from 'next/link';
 // import ProjectDescription from '../ProjectDescription';
 
-const image1 = 'https://prabhavkhandelwal.com/assets/img/work/boldvoice.png';
-
-const BoldVoice = () => {
+const JeffStaple = () => {
   return (
     <div className={styles.projectpage}>
       <div className={styles.projectpagecontent}>
@@ -50,141 +48,48 @@ const BoldVoice = () => {
           </div>
         </div>
         <div className={styles.rightContent}>
+          
+        <video 
+            autoPlay
+            loop
+            muted>
+          <source src="https://prabhavkhandelwal.com/assets/img/work/jeffstaple.webm" type="video/webm" />
+        </video>
+        <br /><br />
+
+          <div className={styles.mobileView}>
+            <Image 
+              src='/static/projectpages/jeffstaple/jeffstaple_mobile_work.png'
+              alt='skilli'
+              width={800}
+              height={1400}
+              className={styles.mobileViewImage}
+            />
+
+            <Image 
+              src='/static/projectpages/jeffstaple/jeffstaple_mobile_drawpad.png'
+              alt='skilli'
+              width={800}
+              height={1400}
+              className={styles.mobileViewImage}
+            />
+          </div>
+          <br /><br />
+
           <Image 
-            src='/static/projectpages/skilli/skilli.png'
+            src='/static/projectpages/jeffstaple/jeffstaple_desktop_work.png'
             alt='skilli'
             width={1200}
             height={800}
           />
-          <div className={styles.keygoals}>
-            <p>
-              <h1>Key Goals</h1>
-              <ol>
-                <li className={styles.bullet}>Let users test the waters and dip their feet with 1v1 gaming to earn small rewards.</li>
-                <li className={styles.bullet}>Eventually drive them towards live tournaments where they can compete in a bigger group and earn bigger rewards.</li>
-                <li className={styles.bullet}>Enforce more competition with ranking on leaderboards, giving out bonus cash prizes and coupons/vouchers.</li>
-              </ol>
-            </p>
-          </div>
-          <div className={styles.early}>
-            <div className={styles.earlyImage}>
-                <Image 
-                src='/static/projectpages/skilli/skilli_early.png'
-                alt='skilli'
-                width={1200}
-                height={800}
-            />
-              <p className={styles.imageCaption}>EARLY EXPLORATIONS</p>
-            </div>
-          </div>
-          <br />
-
-          {/* HOME */}
-          <div className={styles.skilli_home}>
-            <div className={styles.skilli_hometext}>
-              <h1>Home</h1>
-              <h2>EMPHASIS ON TOURNAMENTS</h2>
-              <p className={styles.para}>While giving an overview of what the app has to offer, tournaments and stats like “players joined”, “prize pool” help players decide which tournament to join.</p>
-              <br />
-            </div>
-            <div className={styles.skilli_homeimage}>
-              <Image
-                src="/static/projectpages/skilli/skilli_home.png"
-                alt="skilli_home"
-                width={1200}
-                height={800}
-              />
-            </div>
-          </div>
-          <br /><br /><br /><br /><br /><br />
-
-          {/* GAMEPLAY */}
-          <div className={styles.gameplay}>
-            <div className={styles.gameplayVideo}>
-                <h1>1v1 Gameplay</h1>
-                <h2>CHOOSE YOUR BET AND PLAY</h2>
-                <br />
-                <video 
-                    autoPlay
-                    loop
-                    muted
-                >
-                    <source src="https://prabhavkhandelwal.com/assets/img/work/skilli/skilli_1v1.webm" type="video/webm" />
-                </video>
-                <p className={styles.para}>While giving an overview of what the app has to offer, tournaments and stats like “players joined”, “prize pool” help players decide which tournament to join.</p>
-              {/* <p className={styles.imageCaption}>SELECTING SUBSCRIPTION PLAN</p> */}
-            </div>
-            <div className={styles.gameplayVideo}>
-            <h1>Tournaments</h1>
-            <h2>COMPETE WITH THE BEST</h2>
-            <br />
-              <video 
-                autoPlay
-                loop
-                muted
-              >
-                <source src="https://prabhavkhandelwal.com/assets/img/work/skilli/skilli_tourney.webm" type="video/webm" />
-              </video>
-              <p className={styles.para}>While giving an overview of what the app has to offer, tournaments and stats like “players joined”, “prize pool” help players decide which tournament to join.</p>
-            </div>
-        </div>
-        <br /><br /><br /><br /><br /><br />
-
-          {/* LEADERBOARD */}
-          <div className={styles.skilli_leaderboard}>
-            <div className={styles.skilli_leaderboardtext}>
-              <h1>Leaderboard</h1>
-              <h2>SEE WHERE YOU RANK</h2>
-              <p className={styles.para}>The overarching goal of a expert player would be to rank on the leaderboard to compete for the biggest prizes. Ranks are showcased with the respective rewards to incentivize the players to rank higher.</p>
-              <br />
-            </div>
-            <div className={styles.skilli_leaderboardimage}>
-              <Image
-                src="/static/projectpages/skilli/skilli_leaderboard.png"
-                alt="skilli_leaderboard"
-                width={1200}
-                height={800}
-              />
-            </div>
-          </div>
-          <br />
-
-          {/* COINS AND REDEMPTION */}
-          <div className={styles.skilli_coins}>
-            <div className={styles.skilli_coinstext}>
-              <h1>Coins & Redemption</h1>
-              <h2>CASH OUT IN CASH OR KIND</h2>
-              <p className={styles.para}>The coin wallet functions both as a personal wallet as well as a ledger. Players can check out their coins, corresponding cash values and choose to cash out. Additionally, they can also see all the incoming and outgoing coins form entry fees, winning amounts, bonuses, etc.</p>
-              <br />
-              <p className={styles.para}>They can also choose to trade in their coins for real-life rewards such as merchandise, coupons, cash vouchers, etc</p>
-            <br />
-            </div>
-            <div className={styles.skilli_coinsimage}>
-              <Image
-                src="/static/projectpages/skilli/skilli_coins.png"
-                alt="skilli_coins"
-                width={1200}
-                height={800}
-              />
-              <br />
-              <Image
-                src="/static/projectpages/skilli/skilli_popups.png"
-                alt="skilli_popups"
-                width={1200}
-                height={800}
-              />
-              <p className={styles.imageCaption}>MISCELLANEOUS ALERTS</p>
-            </div>
-          </div>
-          <br />
         </div>
       </div>
       {/* Footer */}
       <div className={styles.blogpage_footer}>
         <div className="navHorizontalRule"><hr /></div>
           <div className={styles.footerContent}>
-            <Link href="/work/boldvoice"><p className={styles.leftFooter}>←  BOLDVOICE</p></Link>
-            <Link href="/work/jeffstaple"><p className={styles.rightFooter}>JEFFSTAPLE   →</p></Link>
+            <Link href="/work/skilli"><p className={styles.leftFooter}>←  SKILLI</p></Link>
+            <Link href="/work/chetfaker"><p className={styles.rightFooter}>CHET FAKER   →</p></Link>
          </div>
       </div>
     </div>
@@ -192,4 +97,4 @@ const BoldVoice = () => {
 }
 
 
-export default BoldVoice
+export default JeffStaple
