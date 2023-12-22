@@ -1,13 +1,12 @@
+// 'use client'
 import React from 'react'
-import WorkCard from '@/Components/WorkCard/WorkCard'
-import styles from './CSS/WorkPage.module.css';
-import { NavLink } from "react-router-dom";
+import styles from './WorkPage.module.css';
+import WorkCard from '@/Components/WorkCard/WorkCard';
 
 const WorkPage = () => {
   return (
     <div className={styles.workpage}>
       {/* card 1 */}
-    <NavLink to='/work/boldvoice'>
      <WorkCard 
         jobTitle='(Product Design)'
         projectTitle='BOLDVOICE'
@@ -16,7 +15,6 @@ const WorkPage = () => {
         caseStudyLink='CASE STUDY'
         projectImage='/boldvoice.png'
       />
-    </NavLink>
       <div className="navHorizontalRule"><hr /></div>
 
       {/* card 2 */}

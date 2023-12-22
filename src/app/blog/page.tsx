@@ -1,8 +1,9 @@
-import BlogCard from '@/Components/BlogCard/BlogCard'
+'use client'
+import BlogCard from '@/app/blog/BlogCard'
 import React from 'react'
-import styles from './CSS/BlogPage.module.css';
+import styles from './BlogPage.module.css';
 // import Image from 'next/image';
-import DoodleCard from '@/Components/DoodleCard/DoodleCard';
+import DoodleCard from '@/app/blog/DoodleCard';
 
 const BlogPage = () => {
   return (
