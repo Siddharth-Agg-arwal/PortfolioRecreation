@@ -8,7 +8,7 @@
 }
 
 .rightContent{
-    padding:2%;
+    padding-left:2%;
     flex:6;
     display:flex;
     flex-direction: column;
@@ -88,8 +88,31 @@
     width:1em;
 }
 
-.problem h1{
+.projectpagecontent h1{
     margin-bottom: 10px;
     font-size: 25px;
     font-weight: 550;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: row;
+}
+
+.subscriptionImage{
+    justify-content: center;
+    flex:1;
+    width: 35vw;
+    height: 38vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscriptionVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+    width: 35vw;
+    height: 38vw;
 }

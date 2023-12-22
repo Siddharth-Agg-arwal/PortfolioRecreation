@@ -72,6 +72,103 @@ const BoldVoice = () => {
               </ul>
             </p>
           </div>
+          <div className={styles.subscription}>
+            <div className={styles.subscriptionImage}>
+              <Image
+                src='/static/projectpages/boldvoice/boldvoice_sub.png'
+                alt='boldvoice_sub'
+                width={800}
+                height={1400}
+              />
+              <p>SELECTING SUBSCRIPTION PLAN</p>
+            </div>
+            <div className={styles.subscriptionVideo}>
+              <video 
+                autoPlay
+                loop
+                muted
+              >
+                <source src="https://prabhavkhandelwal.com/assets/img/work/boldvoice/boldvoice_onboarding.webm" type="video/webm" />
+              </video>
+              <p>ONBOARDING QUESTIONS</p>
+            </div>
+          </div>
+          <br />
+
+          {/* HOME */}
+          <div className={styles.boldvoice_home}>
+            <div className={styles.boldvoice_hometext}>
+              <h1>Home</h1>
+              <h2>A DAILY PRACTICE, NOT A SPRINT</h2>
+              <p>Instead of approaching the lessons in a sprint-type fashion, our research showed that a routine-based structured approach works better for picking up new skills. So, the homepage shows the users their “tasks of the day” with the goal to check each of them off every day.</p>
+              <br />
+            </div>
+            <div className={styles.boldvoice_homeimage}>
+              <Image
+                src="/static/projectpages/boldvoice/boldvoicehome.png"
+                alt="boldvoice_home"
+                width={1200}
+                height={800}
+              />
+            </div>
+          </div>
+          <br />
+
+          {/* VIDEO LESSONS */}
+          <div className={styles.boldvoice_videolessons}>
+            <div className={styles.boldvoice_videolessonstext}>
+              <h1>Video Lessons</h1>
+              <h2>LEARNING FROM THE BEST</h2>
+              <p>Users can watch lessons with accent coaches and practice key words and sentences as they're learning. They can also check detailed syllable-by-syllable feedback and can rate the lesson after they're done.</p>
+              <br />
+            </div>
+            <div className={styles.boldvoice_videolessonsimage}>
+              <Image
+                src="/static/projectpages/boldvoice/boldvoice_video.png"
+                alt="boldvoice_videolessons"
+                width={1200}
+                height={800}
+              />
+            </div>
+          </div>
+          <br />
+
+          {/* PRACTISE SESSIONS */}
+          <div className={styles.boldvoice_practiselessons}>
+            <div className={styles.boldvoice_practiselessonstext}>
+              <h1>Practice Sessions</h1>
+              <h2>HONING YOUR SKILLS</h2>
+              <p>Every video lesson is coupled with a practice set, which helps users hone in on the concepts they've just learned. They can hear an example from the coach, try their hand and get detailed feedback on how they did.</p>
+              <br />
+            </div>
+            <div className={styles.boldvoice_practiselessonsimage}>
+              <Image
+                src="/static/projectpages/boldvoice/boldvoice_practice.png"
+                alt="boldvoice_practiselessons"
+                width={1200}
+                height={800}
+              />
+            </div>
+          </div>
+          <br />
+
+          {/* LESSON PLANS */}
+          <div className={styles.boldvoice_lessonplans}>
+            <div className={styles.boldvoice_lessonplanstext}>
+              <h1>Lesson Plans</h1>
+              <h2>A BIRD'S EYE VIEW</h2>
+              <p>All lessons are structured into thematic units, which are further divided into video lessons coupled with their dedicated practice set. We experimented with a couple approaches on how to showcase overall progress through the coursework—overall progress bars and a streak-based approach.</p>
+              <br />
+            </div>
+            <div className={styles.boldvoice_lessonplansimage}>
+              <Image
+                src="/static/projectpages/boldvoice/boldvoice_lessons.png"
+                alt="boldvoice_lessonplans"
+                width={1200}
+                height={800}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
