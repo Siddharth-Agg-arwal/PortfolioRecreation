@@ -80,7 +80,7 @@ const BoldVoice = () => {
                 width={800}
                 height={1400}
               />
-              <p>SELECTING SUBSCRIPTION PLAN</p>
+              <p className={styles.imageCaption}>SELECTING SUBSCRIPTION PLAN</p>
             </div>
             <div className={styles.subscriptionVideo}>
               <video 
@@ -90,7 +90,7 @@ const BoldVoice = () => {
               >
                 <source src="https://prabhavkhandelwal.com/assets/img/work/boldvoice/boldvoice_onboarding.webm" type="video/webm" />
               </video>
-              <p>ONBOARDING QUESTIONS</p>
+              <p className={styles.imageCaption}>ONBOARDING QUESTIONS</p>
             </div>
           </div>
           <br />
@@ -169,7 +169,25 @@ const BoldVoice = () => {
               />
             </div>
           </div>
+          <br />
+
+          {/* FINAL THOUGHTS */}
+          <div className={styles.boldvoice_finalthoughts}>
+            <div className={styles.boldvoice_finalthoughtstext}>
+              <h1>Final Thoughts</h1>
+              <p>BoldVoice has evolved and grown since my initial designs and continues to rack up downloads on both the Apple App Store and Google Play Store — helping nonnative English speakers discover their most clear and confident voice.</p>
+              <br />
+            </div>
+          </div>
         </div>
+      </div>
+      {/* Footer */}
+      <div className={styles.blogpage_footer}>
+        <div className="navHorizontalRule"><hr /></div>
+          <div className={styles.footerContent}>
+            <p className={styles.leftFooter}></p>
+            <p className={styles.rightFooter}>THANKS FOR STOPPING BY!</p>
+         </div>
       </div>
     </div>
   )
