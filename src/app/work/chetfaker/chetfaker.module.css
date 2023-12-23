@@ -23,6 +23,10 @@
     flex-direction: row;
 }
 
+.role, .team{
+    font-family: nimbus-mono;
+}
+
 .rightContent{
     padding-left:2%;
     flex:6;

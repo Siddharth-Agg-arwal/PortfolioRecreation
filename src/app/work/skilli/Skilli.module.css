@@ -53,6 +53,10 @@
     color:#666666;
 }
 
+.role, .team{
+    font-family: nimbus-mono;
+}
+
 .leftContent{
     padding:1%;
     /* max-width:20vw; */

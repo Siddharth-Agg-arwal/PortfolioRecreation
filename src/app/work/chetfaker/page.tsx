@@ -34,13 +34,13 @@ const ChetFaker = () => {
           </div>
           <br />
           <div className={styles.role}>
-            <p>ROLE..................................WEB DESIGN</p>
+            <p>ROLE....................WEB DESIGN</p>
           </div>
           <div className={styles.role}>
-            <p>ROLE..................................DEVELOPMENT</p>
+            <p>ROLE....................DEVELOPMENT</p>
           </div>
           <div className={styles.team}>
-            <p>TEAM.............................<a href="https://www.gordilsandwillis.com/">GORDILS & WILLIS</a></p>
+            <p>TEAM.....<a href="https://www.gordilsandwillis.com/">GORDILS & WILLIS</a></p>
             <Image 
                 src='/export.png'
                 alt='export-icon'

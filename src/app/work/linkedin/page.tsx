@@ -45,157 +45,120 @@ const LinkedIn = () => {
           </div> */}
           <br />
           <div className={styles.role}>
-            <p>ROLE..................................PRODUCT DESIGN</p>
+            <p>ROLE.....................PRODUCT DESIGN</p>
           </div>
           <div className={styles.role}>
-            <p>ROLE..................................UX RESEARCH</p>
+            <p>ROLE.......................UX RESEARCH</p>
           </div>
           <div className={styles.team}>
-            <p>TEAM................ROSHAN FERNANDO & EDWARD CHEN</p>
+            <p>TEAM......ROSHAN FERNANDO & EDWARD CHEN</p>
           </div>
           </div>
         </div>
         <div className={styles.rightContent}>
           <Image 
-            src={image1}
-            alt='boldvoice'
+            src='/static/projectpages/linkedin/linkedin-events-feature.png'
+            alt='linkedIn events feature'
             width={1200}
             height={800}
           />
-          <div className={styles.problem}>
+          <div className={styles.research}>
             <p>
-              <h1>Problem Space</h1>
+              <h1>Research Questions</h1>
               <ol>
-                <li className={styles.bullet}>Immigrants and nonnative English speakers constantly face a challenge to communicate themselves properly in a variety of situations: be it at school, at work, socially, etc.</li>
-                <li className={styles.bullet}>As a result, they sometimes feel left out of conversations, being ignored at work, and being badgered constantly by the infamous — “I didn't quite get that”.</li>
-                <li className={styles.bullet}>Dedicated accent coaching costs a lot, and BoldVoice seeks to make the power of 1:1 accent coaching accessible to everyone.</li>
+                <li className={styles.bullet}>Understand how people sustain relationships with LinkedIn connections</li>
+                <li className={styles.bullet}>Discover how people interact with previous and new connections at conferences</li>
+                <li className={styles.bullet}>Understand how recruiters utilize LinkedIn before and during conferences</li>
               </ol>
             </p>
             <p>
-              <h1>BoldVoice's Proposition</h1>
+              <h1>Core Pain Points</h1>
               <ul>
-                <li >Without trying to erase their natural accent, BoldVoice seeks to approach accent coaching as a skill they can pick up to enhance their pronunciation and confidence by:</li>
-                <li className={styles.bullet}>Offering a tailor-made coursework according to user's linguistic background</li>
-                <li className={styles.bullet}>Video lessons by Hollywood accent coaches</li>
-                <li className={styles.bullet}>Practice sessions with instant & detailed feedback down to each syllable</li>
+                {/* <li >Without trying to erase their natural accent, BoldVoice seeks to approach accent coaching as a skill they can pick up to enhance their pronunciation and confidence by:</li> */}
+                <li className={styles.bullet}>Conference attendees don't know which of their LinkedIn connections will also be there</li>
+                <li className={styles.bullet}>Company recruiters struggle to source conference attendees, and verify them as attending.</li>
               </ul>
             </p>
           </div>
-          <div className={styles.subscription}>
-            <div className={styles.subscriptionImage}>
-              <Image
-                src='/static/projectpages/boldvoice/boldvoice_sub.png'
-                alt='boldvoice_sub'
-                width={800}
-                height={1400}
-              />
-              <p className={styles.imageCaption}>SELECTING SUBSCRIPTION PLAN</p>
+
+          {/* EVENTS PAGE */}
+          <div className={styles.linkedin_eventspage}>
+            <div className={styles.boldvoice_hometext}>
+              <h1>Events Page — Iterations</h1>
+              <h2>ADDING CONTEXT</h2>
+              <p className={styles.para}>Major issues laid out here were the placement of the 'Create Group' button, unintuitive way to add members to a group as well as decreased visibility of filters</p>
+              <br />
             </div>
-            <div className={styles.subscriptionVideo}>
+            <div className={styles.linkedin_groups}>
+              <Image
+                src="/static/projectpages/linkedin/linkedin_groups.png"
+                alt="linkedin_groups"
+                width={1200}
+                height={800}
+              />
+            </div>
+          </div>
+          <br />
+
+          {/* POPUPS */}
+          <div className={styles.linkedin_popups}>
+            <div className={styles.linkedin_popupstext}>
+              <h1>Confirmation Popup — Iterations</h1>
+              <h2>ADDING CONTEXT</h2>
+              <p className={styles.para}>Major issues highlighted were - 'congrats' text wasn't using the real estate well; no call-to-action from the popup alert.</p>
+              <br />
+            </div>
+            <div className={styles.linkedin_popupsimage}>
+              <Image
+                src="/static/projectpages/linkedin/linkedin_popup.png"
+                alt="linkedin_popups"
+                width={1200}
+                height={800}
+              />
+            </div>
+          </div>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+          <div className={styles.groups_events}>
+            <div className={styles.groups_eventsVideo}>
+                <h1>Creating Groups</h1>
+                <h2>MAKE SURE YOU CONNECT WITH YOUR FRIENDS</h2>
+                <br />
+                <video 
+                    autoPlay
+                    loop
+                    muted
+                    >
+                    <source src="https://prabhavkhandelwal.com/assets/img/work/linkedin/linkedin_create_group.webm" type="video/webm" />
+                </video>
+                <p className={styles.para}>We changed the primary message of the pop-up from “Congrats!” to the name of the group. Congrats was generic and did not remind the user what group was created. The updated message is more personal, and clonfirms to the user which group was created. We also added a “View Group button”. Similarly to above, this button clearly tells the user what the next step is: to view the group that they created. This makes navigation less ambiguous.</p>
+
+            </div>
+            <div className={styles.groups_eventsVideo}>
+            <h1>Register for Events</h1>
+            <h2>FIND OLD FRIENDS, MAKE NEW ONES</h2>
+            <br />
               <video 
                 autoPlay
                 loop
                 muted
-              >
-                <source src="https://prabhavkhandelwal.com/assets/img/work/boldvoice/boldvoice_onboarding.webm" type="video/webm" />
+                >
+                <source src="https://prabhavkhandelwal.com/assets/img/work/linkedin/linkedin_event.webm" type="video/webm" />
               </video>
-              <p className={styles.imageCaption}>ONBOARDING QUESTIONS</p>
+              <p className={styles.para}>By changing the color, size, and location of the “Create Group” button, we made group creation much more intuitive. Users know how to create the group and, because we changed the icon from the message icon to the add icon, how to add attendees to the group. There is now much more clarity on what the next steps should be, which better facilitates navigation.<br />‎</p>
             </div>
-          </div>
-          <br />
-
-          {/* HOME */}
-          <div className={styles.boldvoice_home}>
-            <div className={styles.boldvoice_hometext}>
-              <h1>Home</h1>
-              <h2>A DAILY PRACTICE, NOT A SPRINT</h2>
-              <p className={styles.para}>Instead of approaching the lessons in a sprint-type fashion, our research showed that a routine-based structured approach works better for picking up new skills. So, the homepage shows the users their “tasks of the day” with the goal to check each of them off every day.</p>
-              <br />
-            </div>
-            <div className={styles.boldvoice_homeimage}>
-              <Image
-                src="/static/projectpages/boldvoice/boldvoicehome.png"
-                alt="boldvoice_home"
-                width={1200}
-                height={800}
-              />
-            </div>
-          </div>
-          <br />
-
-          {/* VIDEO LESSONS */}
-          <div className={styles.boldvoice_videolessons}>
-            <div className={styles.boldvoice_videolessonstext}>
-              <h1>Video Lessons</h1>
-              <h2>LEARNING FROM THE BEST</h2>
-              <p className={styles.para}>Users can watch lessons with accent coaches and practice key words and sentences as they're learning. They can also check detailed syllable-by-syllable feedback and can rate the lesson after they're done.</p>
-              <br />
-            </div>
-            <div className={styles.boldvoice_videolessonsimage}>
-              <Image
-                src="/static/projectpages/boldvoice/boldvoice_video.png"
-                alt="boldvoice_videolessons"
-                width={1200}
-                height={800}
-              />
-            </div>
-          </div>
-          <br />
-
-          {/* PRACTISE SESSIONS */}
-          <div className={styles.boldvoice_practiselessons}>
-            <div className={styles.boldvoice_practiselessonstext}>
-              <h1>Practice Sessions</h1>
-              <h2>HONING YOUR SKILLS</h2>
-              <p className={styles.para}>Every video lesson is coupled with a practice set, which helps users hone in on the concepts they've just learned. They can hear an example from the coach, try their hand and get detailed feedback on how they did.</p>
-              <br />
-            </div>
-            <div className={styles.boldvoice_practiselessonsimage}>
-              <Image
-                src="/static/projectpages/boldvoice/boldvoice_practice.png"
-                alt="boldvoice_practiselessons"
-                width={1200}
-                height={800}
-              />
-            </div>
-          </div>
-          <br />
-
-          {/* LESSON PLANS */}
-          <div className={styles.boldvoice_lessonplans}>
-            <div className={styles.boldvoice_lessonplanstext}>
-              <h1>Lesson Plans</h1>
-              <h2>A BIRD'S EYE VIEW</h2>
-              <p className={styles.para}>All lessons are structured into thematic units, which are further divided into video lessons coupled with their dedicated practice set. We experimented with a couple approaches on how to showcase overall progress through the coursework—overall progress bars and a streak-based approach.</p>
-              <br />
-            </div>
-            <div className={styles.boldvoice_lessonplansimage}>
-              <Image
-                src="/static/projectpages/boldvoice/boldvoice_lessons.png"
-                alt="boldvoice_lessonplans"
-                width={1200}
-                height={800}
-              />
-            </div>
-          </div>
-          <br />
-
-          {/* FINAL THOUGHTS */}
-          <div className={styles.boldvoice_finalthoughts}>
-            <div className={styles.boldvoice_finalthoughtstext}>
-              <h1>Final Thoughts</h1>
-              <p className={styles.para}>BoldVoice has evolved and grown since my initial designs and continues to rack up downloads on both the Apple App Store and Google Play Store — helping nonnative English speakers discover their most clear and confident voice.</p>
-              <br />
-            </div>
-          </div>
+        </div>
         </div>
       </div>
+
+
+      {/* Footer */}
       {/* Footer */}
       <div className={styles.blogpage_footer}>
         <div className="navHorizontalRule"><hr /></div>
           <div className={styles.footerContent}>
-            <p className={styles.leftFooter}></p>
-            <Link href="/work/skilli"><p className={styles.rightFooter}>SKILLI   →</p></Link>
+            <Link href="https://blog.prototypr.io/my-summer-as-a-ux-research-intern-for-accenture-at-google-1ac353119717"><p className={styles.leftFooter}>←  CHET FAKER</p></Link>
+            <Link href="/work/lisamarie"><p className={styles.rightFooter}>LISA MARIE RUNFOLA  →</p></Link>
          </div>
       </div>
     </div>

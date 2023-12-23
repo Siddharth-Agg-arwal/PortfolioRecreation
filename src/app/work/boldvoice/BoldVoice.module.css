@@ -18,6 +18,10 @@
     margin:2%;
 }
 
+.role, .team{
+    font-family: nimbus-mono;
+}
+
 .projectpagecontent{
     display:flex;
     flex-direction: row;

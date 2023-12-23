@@ -34,10 +34,10 @@ const LaBamba = () => {
           </div>
           <br />
           <div className={styles.role}>
-            <p>ROLE..................................DEVELOPMENT</p>
+            <p>ROLE.................DEVELOPMENT</p>
           </div>
           <div className={styles.team}>
-            <p>TEAM..................................<a href="https://alright.studio/">ALRIGHT STUDIO</a></p>
+            <p>TEAM................<a href="https://alright.studio/">ALRIGHT STUDIO</a></p>
             <Image 
                 src='/export.png'
                 alt='export-icon'

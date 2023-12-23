@@ -23,6 +23,7 @@
     flex-direction: row;
 }
 
+
 .rightContent{
     padding-left:2%;
     flex:6;
@@ -30,6 +31,16 @@
     flex-direction: column;
     justify-content: center;
     overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.rightContent::-webkit-scrollbar {
+    display: none;
+}
+
+.role, .team{
+    font-family: nimbus-mono;
 }
 
 .para{
@@ -102,26 +113,26 @@
     text-decoration: underline;
 }
 
-.problem{
+.research{
     margin:2% 0;
     display: flex;
     flex-direction: row;
 }
 
-.problem ul{
+.research ul{
     list-style:none;
 }
 
-.problem p{
+.research p{
     padding:20px;
 }
 
-.problem li{
+.research li{
     font-size:20px;
     margin:1%;
 }
 
-.problem .bullet::before{
+.research .bullet::before{
     content: "\25A0";
     color: #F33422;
     font-weight: bold;
@@ -173,4 +184,28 @@
     font-family: nimbus-mono;
     font-size:17px;
     justify-content: space-between;
+}
+
+
+.groups_events{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+
+.groups_eventsVideo{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vw;
+    height: 36vw;
+}
+
+.groups_events p{
+    padding-right:10px;
+    margin-top: 15px;
+    font-size:21px;
+    font-family: OpenSans;
 }

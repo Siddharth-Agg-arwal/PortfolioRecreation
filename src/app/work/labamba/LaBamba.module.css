@@ -149,3 +149,7 @@
 .mobileVideo1{
     margin-right: 2vw;
 }
+
+.role, .team{
+    font-family: nimbus-mono;
+}
