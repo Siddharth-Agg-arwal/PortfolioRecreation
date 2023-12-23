@@ -151,13 +151,11 @@ const LinkedIn = () => {
         </div>
       </div>
 
-
-      {/* Footer */}
       {/* Footer */}
       <div className={styles.blogpage_footer}>
         <div className="navHorizontalRule"><hr /></div>
           <div className={styles.footerContent}>
-            <Link href="https://blog.prototypr.io/my-summer-as-a-ux-research-intern-for-accenture-at-google-1ac353119717"><p className={styles.leftFooter}>←  CHET FAKER</p></Link>
+            <Link href="https://blog.prototypr.io/my-summer-as-a-ux-research-intern-for-accenture-at-google-1ac353119717"><p className={styles.leftFooter}>←  GOOGLE</p></Link>
             <Link href="/work/lisamarie"><p className={styles.rightFooter}>LISA MARIE RUNFOLA  →</p></Link>
          </div>
       </div>
