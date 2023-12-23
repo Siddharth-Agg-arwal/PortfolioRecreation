@@ -1,0 +1,155 @@
+@font-face {
+    font-family: nimbus-mono;
+    src: url('../../Fonts/nimbus-mono.regular.otf');
+    src: url('../../Fonts/nimbus-mono.regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../../Fonts/OpenSans-Regular.ttf');
+    src:url('../../Fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.projectpage{
+    margin:2%;
+}
+
+.projectpagecontent{
+    display:flex;
+    flex-direction: row;
+}
+
+.rightContent{
+    padding-left:2%;
+    flex:6;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.para
+{
+    padding-right:400px;
+    margin-top: 15px;
+    font-size:21px;
+    font-family: OpenSans;
+}
+
+.leftContent{
+    padding:1%;
+    /* max-width:20vw; */
+    flex:2;
+    /* justify-content: center; */
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+
+}
+/* →  */
+
+.leftContentContainer{
+    top:150px;
+    display: flex;
+    flex-direction: column;
+    margin-top:40%;
+    position: sticky;
+
+}
+
+.externalLink1{
+    display: flex;
+    align-items: center;
+}
+
+.externalLinks p{
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.projectTitle{
+    font-size:24px;
+    font-weight: 600;
+}
+
+.para1{
+    font-size:19px;
+}
+
+.para2{
+    font-size:19px;
+}
+
+.projectpage a{
+    color:#F33422;
+}
+
+.projectpage a:hover{
+    text-decoration: underline;
+}
+
+.footerContent{
+    margin-top:2%;
+    display: flex;
+    align-items: center;
+    font-family: nimbus-mono;
+    font-size:17px;
+    justify-content: space-between;
+}
+
+.team{
+    align-items: center;
+    display:flex;
+}
+
+.team p{
+    margin-right:10px;
+}
+
+.team a{
+    color:black;
+    text-decoration: underline;
+}
+
+.desktopView{
+    display:flex;
+    flex-direction: row;
+}
+
+.desktopViewImage1, .desktopViewImage2{
+    justify-content: center;
+    flex:1;
+    max-width: 36vw;
+    max-height: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desktopViewImage1{
+    margin-right: 20px;
+}
+
+.mobileView{
+    display:flex;
+    /* max-width: 70vw; */
+    overflow-x: hidden;
+}
+
+.mobileVideo1, .mobileVideo2{
+    flex:1;
+    max-width:33vw;
+    max-height:40vw;
+}
+
+.mobileVideo1{
+    margin-right: 2vw;
+}
+
+.role, .team{
+    font-family: nimbus-mono;
+}
