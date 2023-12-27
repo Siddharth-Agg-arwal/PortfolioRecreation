@@ -31,33 +31,25 @@ const HomePage = () => {
             </div>
             <div className={styles.quadrant2}>
               <div className={styles.wrapper}>
-                
-                <p className={styles.box} data-src=''>(work, jeffstaple)</p>
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  className={styles.effect}
-                >
-                <source src='/jeffStaple.webm' type='video/webm' />
-                </video>
 
-                <p className={styles.box} data-src=''>(work, skilli)</p>
-                <img
-                  src='/chet-faker.png'
-                  alt='helo'
-                  className={styles.effect}
-                />
-
-                <p className={styles.box} data-src=''>(work, boldvoice)</p>
-                <img
-                  src='/chet-faker.png'
-                  alt='helo'
-                  className={styles.effect}
+                <ImageOnHover
+                  text='(work, jeffstaple)'
+                  projectVideo='/jeffStaple.webm'
+                  videoType='video/webm'
+                  projectImage=''
+                  externalLink=''
                 />
 
                 <ImageOnHover
-                  text='jeffstaple'
+                  text='(work, skilli)'
+                  projectVideo=''
+                  videoType=''
+                  projectImage='/skilli.png'
+                  externalLink=''
+                />
+
+                <ImageOnHover
+                  text='(work, boldvoice)'
                   projectVideo=''
                   videoType=''
                   projectImage='/boldvoice.png'
