@@ -39,7 +39,7 @@ const WorkCard = ({jobTitle, projectTitle, description, caseStudyIcon, caseStudy
                     </div>
                 </div>
                 <Link href={projectRoute}>
-                    {projectMedia ? (
+                    {projectMedia != 0 ? (
                         <video
                         autoPlay
                         muted

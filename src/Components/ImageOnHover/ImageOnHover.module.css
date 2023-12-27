@@ -1,0 +1,23 @@
+.box{
+    color:red;
+}
+
+.effect{
+    width:600px;
+    height:250px;
+    position: absolute;
+    pointer-events: none;
+    /* z-index: 1; */
+    border-radius: 20px;
+    left:-77vw;
+    top:18vw;
+    transform: translate(-50%, -50%) scale(0.2);
+    opacity:0;
+    
+}
+
+.wrapper .box:hover ~ .effect{
+    color:green;
+    transform: translate(50% , 9%) scale(1); 
+    opacity:1;
+}

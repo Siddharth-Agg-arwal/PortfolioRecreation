@@ -1,0 +1,26 @@
+.quadrantCanvas {
+    display: block;
+    position: absolute;
+    border: 1px solid #000;
+  }
+  
+  .quadrant {
+    top: 0;
+    left: 0;
+  }
+  
+  .quadrant2 {
+    top: 0;
+    right: 0;
+  }
+  
+  .quadrant3 {
+    bottom: 0;
+    left: 0;
+  }
+  
+  .quadrant4 {
+    bottom: 0;
+    right: 0;
+  }
+  

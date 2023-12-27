@@ -129,7 +129,7 @@ const WorkPage = () => {
         projectImage=''
         projectRoute='/work/covera'
         projectVideo='https://prabhavkhandelwal.com/assets/img/work/covera-health.webm'
-        videoType='/video/webm'
+        videoType='video/webm'
       />
       <div className="navHorizontalRule"><hr /></div>
 
@@ -157,7 +157,7 @@ const WorkPage = () => {
         projectImage=''
         projectRoute='/work/varunchopra'
         projectVideo='https://prabhavkhandelwal.com/assets/img/work/varun-chopra.webm'
-        videoType='/video/webm'
+        videoType='video/webm'
       />
       <div className={styles.workpage_footer}>
         <div className="navHorizontalRule"><hr /></div>
