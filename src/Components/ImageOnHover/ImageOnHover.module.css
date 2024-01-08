@@ -1,5 +1,5 @@
 .box{
-    color:red;
+    /* color:red; */
 }
 
 .effect{
@@ -16,8 +16,19 @@
     
 }
 
-.wrapper .box:hover ~ .effect{
-    color:green;
+.wrapper .text:hover ~ .effect{
     transform: translate(50% , 9%) scale(1); 
     opacity:1;
+}
+
+.text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.annotation{
+    height:20px;
+    width:20px;
+    margin-right:3px;   
 }

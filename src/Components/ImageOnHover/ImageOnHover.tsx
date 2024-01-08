@@ -9,15 +9,24 @@ interface Props{
     videoType:string;
     projectImage:string;
     externalLink: string;
+    annotation:string;
+    classname:string; 
 }
 
-const ImageOnHover = ({text, projectVideo, videoType, projectImage, externalLink} : Props) => {
+const ImageOnHover = ({text, projectVideo, videoType, projectImage, externalLink, annotation, classname} : Props) => {
 
     const projectMedia =projectVideo.length;
 
     return (
         <div className={styles.wrapper}>
-            <p className={styles.box}>{text}</p>
+            <div className={`${styles.text} ${classname}`}>
+                <img 
+                    src={annotation}
+                    alt='annotation'
+                    className={styles.annotation}
+                />
+                <p className={`${styles.box} ${classname}`}>{text}</p>
+            </div>
             {projectMedia != 0 ? (
                 <video
                 autoPlay
